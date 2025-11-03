@@ -32,7 +32,6 @@ docker run --gpus all -it \
   -p 8011:8888 \
   polygon_hgt_cuspatial:latest bash
 
-
 ## 🚀 2. Set CUDA Environment Variables
 
 After entering the container, set up the CUDA environment variables to ensure that CUDA and NVCC are correctly recognized.
@@ -44,7 +43,6 @@ export CUDA_HOME=/usr/local/cuda
 export CUDACXX=$CUDA_HOME/bin/nvcc
 export PATH=$CUDA_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$CUDA_HOME/lib64:$LD_LIBRARY_PATH
-
 
 ## ⚙️ 3. CUDA 
 
