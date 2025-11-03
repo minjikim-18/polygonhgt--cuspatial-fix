@@ -6,6 +6,7 @@ Fixed and updated version of polygon-HGT for CUDA 11.7, RAPIDS 23.04 (cuSpatial 
 
 
 
+
 ## License and Attribution
 This project is based on [polygon-HGT](https://github.com/DavidGillsjo/polygon-HGT)  
 by **David Gillsjö (2023)**, distributed under the **MIT License**.
@@ -18,6 +19,12 @@ Modifications by **Minji Kim (2025)** for:
 # Polygon-HGT with cuSpatial (Docker Setup)
 
 This guide explains how to build and run the **Polygon-HGT** project with **cuSpatial** support inside a Docker container.
+
+## 🛠️ Code Modification (Polygon Construction Fix)
+
+In this version, the polygon construction line in the source code has been updated to ensure tensors are detached from the computation graph before being converted to `shapely.Polygon`.
+
+
 
 
 ## 🚀 1. Run Docker Container
