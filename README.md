@@ -59,4 +59,4 @@ Build cuda_11.7.r11.7/compiler.31442593_0
 
 ## 📚 Citation
 If you use this work, please cite the original Polygon-HGT repository:
-howpublished = {\url{https://github.com/DavidGillsjo/polygon-HGT}}
+howpublished = {\url{[https://github.com/DavidGillsjo/polygon-HGT](https://github.com/DavidGillsjo/polygon-HGT)}}
