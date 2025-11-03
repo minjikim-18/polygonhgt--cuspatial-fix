@@ -5,7 +5,7 @@ Fixed and updated version of polygon-HGT for CUDA 11.7, RAPIDS 23.04 (cuSpatial 
 
 
 
-
+docker pull ghcr.io/minjikim-18/polygonhgt--cuspatial-fix:latest
 
 ## License and Attribution
 This project is based on [polygon-HGT](https://github.com/DavidGillsjo/polygon-HGT)  
