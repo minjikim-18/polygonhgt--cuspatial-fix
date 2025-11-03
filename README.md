@@ -56,3 +56,7 @@ Built on Wed_Jun__8_16:49:14_PDT_2022
 Cuda compilation tools, release 11.7, V11.7.99
 Build cuda_11.7.r11.7/compiler.31442593_0
 
+
+## 📚 Citation
+If you use this work, please cite the original Polygon-HGT repository:
+
